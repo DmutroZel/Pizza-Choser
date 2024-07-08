@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.pizzaPlace {
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    position: absolute;
+    left: -300px;
+    
+}
+.btn{
+    position: absolute;
+    left: 280px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.btn:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+
+.pizza1{
+    width: 500px;
+    height: 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noway{
+    width: 500px;
+    height: 166px;
+    display: flex;
+}
+.pizza2{
+    width: 500px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pizza3{
+    width: 250px;
+    height: 168px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pizza4{
+    width: 250px;
+    height: 168px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.koshuk{
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 2px dotted black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnKoshuk{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 2px dotted black;  
+}
+.koshukContainer{
+    width: 200px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 2px dotted black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pizzaItem{
+    background-color: whitesmoke;
+    width: 200px;
+    min-height: 80px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: 2px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.input-container {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+.hrestBtn{
+    width: 20px;
+    height: 20px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+.hrestBtn:hover{
+    background-color: whitesmoke;
+}
